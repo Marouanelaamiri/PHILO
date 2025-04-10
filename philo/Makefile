@@ -6,7 +6,7 @@
 #    By: malaamir <malaamir@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/03/04 16:24:51 by malaamir          #+#    #+#              #
-#    Updated: 2025/04/06 15:45:24 by malaamir         ###   ########.fr        #
+#    Updated: 2025/04/10 10:19:58 by malaamir         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -17,7 +17,7 @@ SRC = ft_atoi.c ft_strlen.c initing.c parsing.c philo.c routine.c the_waiter.c \
 #------------------------------Object Files------------------------------------#
 OBJ = $(SRC:.c=.o)
 #------------------------------Compiler and Flages------------------------------#
-CC = cc
+CC = clang
 
 CFLAGS = -Wall -Wextra -Werror
 #------------------------------Includes and Exuctables--------------------------#
